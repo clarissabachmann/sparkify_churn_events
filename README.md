@@ -57,3 +57,9 @@ Looking at the F1 value, random forest classifier had the highest F1 so this was
 The results of the random forest model are not terrible and do well to predict a sizeable amount of churn behaviour, however it could be improved. Further investigative research into feature choice could improve the results of the model. Also a better understanding of how features are correlated with one another could also improve results.
 
 The final analysis was investigating which features showed the greatest importance. The feature with the greatest importance was the add_friend feature (0.2292). This was followed by song total (0.2131), then thumbs down (0.196), and then thumbs up (0.1896), which all had similar levels of importance. Finally the least important features were upgrade (0.0844) and gender (0.0443).
+
+Sources for model research:
+https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
+https://www.datasciencecentral.com/profiles/blogs/decision-tree-vs-random-forest-vs-boosted-trees-explained#:~:text=The%20two%20main%20differences%20are,shortcomings%20of%20existing%20weak%20learners.
+https://www.silect.is/blog/2019/4/2/random-forest-in-spark-ml
+https://towardsdatascience.com/support-vector-machine-simply-explained-fee28eba5496
