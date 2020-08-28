@@ -56,7 +56,9 @@ Looking at the F1 value, random forest classifier had the highest F1 so this was
 
 The results of the random forest model are not terrible and do well to predict a sizeable amount of churn behaviour, however it could be improved. Further investigative research into feature choice could improve the results of the model. Also a better understanding of how features are correlated with one another could also improve results.
 
-The final analysis was investigating which features showed the greatest importance. The feature with the greatest importance was the add_friend feature (0.2292). This was followed by song total (0.2131), then thumbs down (0.196), and then thumbs up (0.1896), which all had similar levels of importance. Finally the least important features were upgrade (0.0844) and gender (0.0443).
+The final analysis was investigating which features showed the greatest importance. The feature with the greatest importance was the add_friend feature (0.2631). This was followed by song total (0.1912) and thumbs up (0.1782), which all had similar levels of importance. Then upgrade (0.115) had a lower level of importance. Finally the least important features were thumbs down (0.02285) and gender (0.0239).
+
+See blog post at: https://medium.com/@clarissabachmann/please-dont-leave-customer-churn-rates-c6ccec94eba2
 
 Sources for model research:
 https://blog.exsilio.com/all/accuracy-precision-recall-f1-score-interpretation-of-performance-measures/
