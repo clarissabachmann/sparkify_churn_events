@@ -4,7 +4,7 @@ This project investigates customer churn for a fictional music streaming app (Sp
 
 Files
 Sparkify.ipynb: the python notebook containing the investigation
-mini_sparkify_event_data.json: small subset of the dataset used to train and test the model
+mini_sparkify_event_data.zip: small subset of the dataset used to train and test the model: the json file had to be compressed to upload to github as the file size was too large, download and unzip to json in order to use the file
 
 Packages
 ETL packages: packages used to prepare and clean data. Also to start the spark session used throughout the investigation
